@@ -1,0 +1,58 @@
+.main
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+    
+.title h1{
+    
+    color:goldenrod;
+    font-size: 70px;
+    
+    
+}
+h2{
+    font-family: cursive;
+
+    
+}
+.header img{
+    width: 1320px;
+    height:500px;
+    background-image: -o-linear-gradient(rgba(0,0,0,0.5)) url(../DIVEAGAR.jpg);
+}
+
+.menu{
+    padding: 50px;
+    margin: 10px;;
+    background-color:#b8960f;
+}
+
+   
+
+
+.menu li a{
+    color:#fff;
+    text-transform:  uppercase;
+    padding: 0px 30px;
+    font-size: 25px;
+}
+.menu li a:hover{
+    color:green;
+    background-color: bisque;
+    transition:all 0.4s ease 0s;
+}
+.content{
+    display:inline block;
+    width: 1000px;
+    font-size: 20px;
+}
+
+.footerh3{
+    text-align:center;
+    color: #fff;
+}
